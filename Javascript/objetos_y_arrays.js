@@ -14,5 +14,5 @@ console.log (cancion.duracion);
 //llamas a la subpropiedad a partir de un punto y la referencia a esa subpropiedad.
 console.log (cancion.duracion.minutos);
 console.log(
-    `Hola ${cancion.autor.nombre}, ${cancion.autor.apellido}, tu cancion ${cancion.titulo} esta buena`
+    `Hola ${cancion.autor.nombre}, ${cancion.autor.apellido}, tu cancion ${cancion.título} esta buena`
 );
