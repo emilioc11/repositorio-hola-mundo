@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 <body>
+    <main>
+        <form>
+            <label for="nombre">
+                <!-- la definición de for debe ser igual que el id -->
+                <span>¿Cuál es tu nombre?</span>
+                <!-- la etiqueta de span es un contenedor de línea -->
+                <input type="text" name="nombre" id="nombre">
+            </label>
+            <label for="correo">
+                <span>Tu correo</span>
+                <input type="email" name="correo" id="correo">
+            </label>
+            <label for="calendario">
+                <span>Fecha</span>
+                <input type="datetime-local" name="calendario" id="calendario">
+            </label>
+            <select>
+                <option value="Fútbol">Fútbol</option>
+                <option value="Tenis">Tenis</option>
+                <option value="Rugby">Rugby</option>
+                <option value="Motociclismo">Motociclismo</option>
+                <option value="Ajedrez">Ajedrez</option>
+            </select>
+        </form>
+    </main>
     
 </body>
 </html>
